@@ -1,0 +1,112 @@
+.nav {
+    padding: 1em 7em;
+    background-color: $eerie-black;
+    @include sm {
+        flex-wrap: nowrap;
+        padding: 40px 30px;
+    }
+}
+
+.nav__image--logo {
+    width: 55px;
+    height: 30px;
+    margin: auto 0;
+    @include sm {
+        float: left;
+    }
+}
+
+.nav__button--burguer{
+    display: none;
+    @include sm {
+        background-color: transparent;
+        border: none;
+        display: block;
+        margin-left: auto;
+    }
+}
+
+.nav__button--burguer i {
+    color: $white;
+    font-size: $x-large;
+}
+
+.nav__list {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hide--list {
+    @include sm{
+        display: inline-grid;
+        position: absolute;
+        text-align: left;
+        top: 0;
+        left: 105%;
+        height: 100%;
+        width: 50%;
+        background-color: #E6E7E7;
+        opacity: 0.7;
+        padding-top: 20px;
+    }
+}
+
+.opening {
+    display: inline-grid;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    left: 54%;
+    background-color: #E6E7E7;
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.nav__item {
+    float: left;
+    @include sm {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.nav_item--link {
+    display: block;
+    color: $white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    &:active {
+        color: $ruddy-pink;
+    }
+    &:hover {
+        color: $spanish-pink;
+    }
+    @include sm {
+        color: $eerie-black;
+        text-align: left;
+        padding: 5px 16px;
+    }
+}
+
+.close--navBar {
+    display: none;
+    @include sm {
+        display: inline;
+        font-size: $x-large;
+        font-weight: $font-black;
+    }
+}
+
+.close--navBar a{
+    text-align: right;
+    margin-right: 10%;
+}

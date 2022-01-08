@@ -1,0 +1,34 @@
+// Extra small screen
+@mixin xs {
+    @media (max-width: #{$screen-xs-min}){
+        @content;
+    }
+}
+
+// Small screen
+@mixin sm {
+    @media (max-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+// Medium screen
+@mixin md {
+    @media (max-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+// Large screen
+@mixin lg {
+    @media (max-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+// Extra large screen
+@mixin xl {
+    @media (max-width: #{$screen-xl-min}) {
+        @content;
+    }
+}

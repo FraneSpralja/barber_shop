@@ -1,0 +1,15 @@
+//BASE
+
+body {
+    width: 100%;
+    background-color: $white;
+    font-family: $roboto;
+    font-weight: $font-regular;
+}
+
+//TYPOGRAPHY
+
+h1, h2, h3, h4, h5, h6, span {
+    font-family: $playfair;
+}
+

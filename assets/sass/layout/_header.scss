@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    height: 120vh;
+    background-image: url("/assets/img/post-image.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    padding-top: 20em;
+    @include sm {
+        height: 80vh;
+        background-position-x: 35%;
+        padding-top: 15em;
+    }
+}
+
+
+.header__title {
+    width: 45%;
+    color: $white;
+    font-weight: $font-black;
+    font-style: $font-italic;
+    font-size: $xx-large;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.2;
+
+    @include sm {
+        width: 80%;
+        font-size: $x-large;
+    }
+
+}
+
+.header__icon {
+    margin-top: 15em;
+    text-align: center;
+    @include lg {
+        margin-top: 70%;
+    }
+    @include sm {
+        margin-top: 80%;
+    }
+    @include xs {
+        margin-top: 45%;
+    }
+}
+
+.header__link {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        color: $spanish-pink;
+    }
+}
+
+.header__icon i {
+    font-size: $x-large;
+}

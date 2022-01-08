@@ -1,0 +1,23 @@
+/*_____Abstract_____*/
+@import 'abstract/variables';
+@import 'abstract/mixin';
+@import 'abstract/breakpoints';
+/*_____vendors_____*/
+@import 'vendors/bootstrap_5.0.2/scss/bootstrap';
+/*_____Base_____*/
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+/*_____Layout_____*/
+@import 'layout/header';
+@import 'layout/navBar';
+@import 'layout/main-section';
+@import 'layout/footer';
+/*_____Components_____*/
+@import 'components/links';
+@import 'components/buttons';
+@import 'components/pagination';
+@import 'components/links';
+/*_____Pages_____*/
+
+/*_____Themes_____*/
